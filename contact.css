@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.button2{
+    margin-left: 650px;
+    position: relative;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 7px;
+    top: -20px;
+}

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+.sectioncontainer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+    
+  }
+.p1{
+    padding-left: 0px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 150px;
+    font-size: 23px;
+}
+.section3{
+  border: 0px solid;
+  padding-left: 150px;
+  font-size: x-large;
+  
+}
+h2{
+    width: 200px;
+}
+.button5{
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.section4{
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-size: large;
+  
+  gap: 420px;
+  white-space: nowrap;
+
+  
+
+  
+}
+ul{
+    list-style: none;
+   
+        margin: 0; 
+        padding: 0px;
+
+    
+}
+.garycontainer{
+    position: relative;
+    display: inline-flex;
+    align-items: flex-start;
+    margin-left: 600px;
+}
+.dropdown{
+    position: absolute;     
+    top: 0px;            
+    left: 100%;            
+    margin-left: 0px;   
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0px;
+    padding-top: 3px;
+    min-width: 150px;
+    display: none;         
+    z-index: 1000;
+    font-size: 10px;
+
+}
+.garycontainer:hover .dropdown {
+    display: block;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+a{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 45px;
+    font-weight: bold;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background: #ffffff;
+    top: 100%;
+    left: 0;
+    width: max-content;
+
+}
+
+ul li a:hover{
+    background: #6c6c6c;
+}
+ul li:hover ul.dropdown{
+    display: block; 
+    
+}
+
+.ul1{
+    padding-bottom: 230px;
+    font-weight: bold;
+    font-size: 23px;
+    border: 2 solid rgb(0, 0, 0);
+}
+.p2{
+    padding-left: 500px;
+    width: 600px;
+    font-size: x-large;
+
+}
+.gary{
+
+    font-size: 52px;
+    width: 444px;
+    display: inline-block;
+    vertical-align: top;
+}
